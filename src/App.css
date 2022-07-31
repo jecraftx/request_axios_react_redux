@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,4 +36,16 @@
   100% {
     transform: translateY(0px);
   }
+} */
+
+.get {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.post {
+  display: block;
+  justify-content: center;
+  text-align: center;
 }
