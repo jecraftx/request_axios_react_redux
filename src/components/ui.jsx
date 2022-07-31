@@ -29,6 +29,11 @@ export function Navbar() {
                   About
                 </a>
               </li>
+              <li>
+                <a href="/user" className="nav-link px-2 text-white">
+                  User
+                </a>
+              </li>
             </ul>
   
             <div className="text-end">

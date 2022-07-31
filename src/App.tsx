@@ -9,6 +9,7 @@ import { Counter } from './features/counter/Counter';
 import './App.css';
 import Home from './pages/Home';
 import Post from './pages/Post';
+import User from './pages/User';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </Route>
 
       <Route path="/post" element={<Post />}>
+      </Route>
+
+      <Route path="/user" element={<User />}>
       </Route>
 
     </Routes>
